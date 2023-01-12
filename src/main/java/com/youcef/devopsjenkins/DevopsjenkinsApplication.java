@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class DevopsjenkinsApplication {
 
 
-        @GetMapping
+        @GetMapping("/message")
         public String message(){
             return "here the las devoir ...CI CD with jenkins";
         }
